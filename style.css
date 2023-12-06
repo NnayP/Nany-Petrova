@@ -1,0 +1,26 @@
+@keyframes animação{
+
+0% {background-color: purple;width: 500px;}
+50% {background-color: palevioletred;width: 250px;}
+100% {background-color: hotpink;width: 50px;}
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width:500px;
+    height:500px;
+    background-color:purple;
+    animation-name: animação;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+}
